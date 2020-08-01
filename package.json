@@ -1,0 +1,30 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "Parcel.js demo",
+  "scripts": {
+    "dev": "parcel watch ./assets/sass/*.scss ./assets/javascript/*.js",
+    "serve": "parcel serve index.html",
+    "build": "parcel build ./assets/sass/*.scss ./assets/javascript/*.js --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smety/parcel-demo.git"
+  },
+  "keywords": [
+    "Parcel.js",
+    "VzhuruDolu"
+  ],
+  "author": "Tomas Smetka <smetka.tomas90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smety/parcel-demo/issues"
+  },
+  "homepage": "https://github.com/smety/parcel-demo#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
