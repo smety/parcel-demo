@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Parcel.js demo",
   "scripts": {
+    "watch": "npm run dev && npm run serve",
     "dev": "parcel watch ./assets/sass/*.scss ./assets/javascript/*.js",
     "serve": "parcel serve index.html",
     "build": "parcel build ./assets/sass/*.scss ./assets/javascript/*.js --no-source-maps"
